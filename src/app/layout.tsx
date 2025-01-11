@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +26,35 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-2ZP5YG0JDG" />
+      <Head>
+        <title>Danmaku Mask</title>
+        <meta
+          name="description"
+          content={
+            "基于 Next.js 和 Mediapipe tasks-vision Image Segmenter 实现的模拟 Bilibili 实时防挡脸弹幕效果。" +
+            "使用机器学习在人脸上渲染一个实时的 mask。" +
+            "This site is developed with Next.js and Mediapipe tasks-vision Image Segmenter." +
+            " Implmenting machine learning to detect human face and render a real-time mask."
+          }
+        />
+        <meta property="og:title" content="Danmaku Mask" />
+        <meta property="og:site_name" content="Danmaku Mask" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:description"
+          content={
+            "基于 Next.js 和 Mediapipe tasks-vision Image Segmenter 实现的模拟 Bilibili 实时防挡脸弹幕效果。" +
+            "使用机器学习在人脸上渲染一个实时的 mask。" +
+            "This site is developed with Next.js and Mediapipe tasks-vision Image Segmenter." +
+            " Implmenting machine learning to detect human face and render a real-time mask."
+          }
+        />
+        <meta
+          property="og:url"
+          content="https://cygra.github.io/danmaku-mask/"
+        />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
