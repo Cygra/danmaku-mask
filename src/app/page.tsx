@@ -177,6 +177,13 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center min-h-screen p-8 w-full justify-center">
+      <a
+        href={"https://github.com/Cygra/danmaku-mask"}
+        className={"fixed top-2 right-2 text-white underline"}
+        target={"_blank"}
+      >
+        Github
+      </a>
       <div
         className="rounded-lg overflow-hidden relative w-[800px]"
         style={{
