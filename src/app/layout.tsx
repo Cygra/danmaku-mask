@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "基于 Next.js 和 Mediapipe tasks-vision Image Segmenter 实现的模拟 Bilibili 实时防挡脸弹幕效果。" +
     "使用机器学习在人脸上渲染一个实时的 mask。" +
     "This site is developed with Next.js and Mediapipe tasks-vision Image Segmenter." +
-    " Implmenting machine learning to detect human face and render a real-time mask.",
+    " Implementing machine learning to detect human face and render a real-time mask.",
   openGraph: {
     type: "website",
     url: "https://cygra.github.io/danmaku-mask/",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       "基于 Next.js 和 Mediapipe tasks-vision Image Segmenter 实现的模拟 Bilibili 实时防挡脸弹幕效果。" +
       "使用机器学习在人脸上渲染一个实时的 mask。" +
       "This site is developed with Next.js and Mediapipe tasks-vision Image Segmenter." +
-      " Implmenting machine learning to detect human face and render a real-time mask.",
+      " Implementing machine learning to detect human face and render a real-time mask.",
     siteName: "Danmaku Mask",
   },
 };
