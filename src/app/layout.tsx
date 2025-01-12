@@ -30,11 +30,6 @@ export const metadata: Metadata = {
       "This site is developed with Next.js and Mediapipe tasks-vision Image Segmenter." +
       " Implmenting machine learning to detect human face and render a real-time mask.",
     siteName: "Danmaku Mask",
-    images: [
-      {
-        url: "https://example.com/og.png",
-      },
-    ],
   },
 };
 
