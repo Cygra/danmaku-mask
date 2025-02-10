@@ -6,6 +6,8 @@
 
 A simulation of Bilibili's real-time face-masked danmaku effect based on Next.js and Mediapipe.
 
+Also, the tech used in this project can be used to implement functions like virtual background in things like online meeting.
+
 | Bilibili                          | Danmaku Mask                   |
 | --------------------------------- | ------------------------------ |
 | ![bilibili](./docs/bilibili.avif) | ![example](./docs/example.JPG) |
